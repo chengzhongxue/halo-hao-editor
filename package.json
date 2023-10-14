@@ -1,0 +1,15 @@
+{
+  "scripts": {
+    "docs:build": "vitepress build docs",
+    "docs:dev": "vitepress dev docs",
+    "docs:preview": "vitepress preview docs"
+  },
+  "dependencies": {
+    "vue": "^3.3.4"
+  },
+  "devDependencies": {
+    "@types/node": "^20.5.3",
+    "vitepress": "^1.0.0-rc.10",
+    "vitepress-plugin-tabs": "^0.3.0"
+  }
+}
