@@ -51,23 +51,20 @@ export default defineConfig({
       {
         text: '快速上手',
         items: [
-          { text: "安装主题", link: "/initall" },
+          { text: "安装主题", link: "/global/安装主题.md" },
           { text: "安装插件", link: "/initall-plugin" },
           {
             text: "功能",
             collapsed: false,
             items: [
-              { text: "安装", link: "/global/1. 安装主题.md" },
-              { text: "基础", link: "/global/2. 基础设置.md" },
-              { text: "导航", link: "/global/3. 导航栏设置.md" },
-              { text: "导航", link: "/global/导航.md" },
+              { text: "基础", link: "/global/基础设置.md" },
+              { text: "导航", link: "/global/导航栏设置.md" },
               { text: "导航栏图标", link: "/global/导航栏图标.md" },
               { text: "顶部", link: "/global/顶部.md" },
               { text: "布局", link: "/global/布局.md" },
               { text: "侧栏", link: "/global/侧栏.md" },
               { text: "页脚", link: "/global/页脚.md" },
-              
-            
+              { text: "分类", link: "/global/分类.md" },
             ],
           },
         ]
